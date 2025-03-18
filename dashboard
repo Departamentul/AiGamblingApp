@@ -5,7 +5,7 @@ from pydantic import BaseModel
 app = FastAPI()
 
 SPORTS_DATA_API = "https://api.sportsdata.io/v4/soccer/scores/json/GamesByDate/2024-MAR-17"
-API_KEY = "4dc44be3808f4b89b7ec34fce89b44e0"
+API_KEY = ""
 
 class BetRecommendation(BaseModel):
     match: str
